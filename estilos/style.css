@@ -199,6 +199,51 @@ a .icon-whatsapp{
     /* color: #25d366; */
     color: white;
 }
+section.compartir{
+    yborder: 1px solid blue;
+    justify-content: space-around;
+    display: flex;
+    padding: 1rem 3rem 0 3rem;
+}
+.share-btn{
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: all 0.2s linear;
+    height: 50px;
+    width: 50px;
+}
+.share-btn:nth-child(1){
+    background-color: #1877f2;
+}
+.share-btn:nth-child(2){
+    background-color: #1da1f2;
+}
+.share-btn:nth-child(3){
+    background-color: #25d366;
+}
+.share-btn:hover{
+    background-color: #4A148C;
+    transform: rotate(360deg);
+}
+.share-btn:hover span{
+    text-shadow: 0 2px 5px rgba(0,0,0,.2);
+}
+a .icon-facebook{
+    ycolor: #1877f2;
+    color: white;
+}
+a .icon-twitter{
+    ycolor: #1da1f2;
+    color: white;
+}
+a .icon-whatsapp{
+    ycolor: #25d366;
+    color: white;
+}
 .main-article > p{
     line-height: 1.7rem;
 }
