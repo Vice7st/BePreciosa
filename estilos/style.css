@@ -115,13 +115,11 @@ color: #fff;
 border-radius: 1rem;
 }
 .main-article .main-title{
-    yborder: 1px solid red;
     font-size: 2.4rem;
     text-align: center;
     ymargin-top: 1rem;
 }
 .main-article .user-date{
-   	yborder: 1px solid red;
 					display: flex;
 					justify-content: center;
 					yalign-items: center;
@@ -139,7 +137,7 @@ border-radius: 1rem;
 					font-weight: bold;
     text-decoration: none;
 }
-.main-article .main-title, .main-article > p, .ads{
+.main-article .main-title, .main-article > p{
     padding: 1rem;
 }
 .main-article figure{
@@ -201,6 +199,35 @@ a .icon-whatsapp{
 }
 .main-article > p{
     line-height: 1.7rem;
+}
+.card{
+background-color: white;
+yborder: 1px solid;
+border-radius: 35px 0 35px 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 1rem;
+    margin-bottom: 1rem;
+}
+.card .image{
+yborder: 1px solid blue;
+padding: 0.5rem;
+}
+.card .image figure img{
+border: 9px solid;
+border-radius: 50%;
+width: 160px;
+}
+.card .text{
+yborder: 1px solid red;
+line-height: 1.7rem;
+text-align: center;
+ypadding: 0 0 0.5rem 0;
+}
+.card .text h2{
+    color: #4A148C;
+padding-bottom: 0.5rem;
 }
 footer{
     background-color: #333;
