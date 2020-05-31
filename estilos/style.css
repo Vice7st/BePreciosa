@@ -215,9 +215,9 @@ yborder: 1px solid blue;
 padding: 0.5rem;
 }
 .card .image figure img{
-border: 5px solid #4A148C;
+border: 3px solid #4A148C;
 border-radius: 50%;
-width: 120px;
+width: 90px;
 }
 .card .text{
 yborder: 1px solid red;
