@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+:root{
+    --width: 830px;
+}
 *{
     margin: 0;
     padding: 0;
@@ -6,8 +9,8 @@
 }
 body{
     background-color: #f2f2f2;
-    font-family: sans-serif;
-    font-size: 1.1rem;
+    font-family: 'Segoe UI', "Calibri", Verdana, sans-serif;
+    font-size: 20px;
 }
 header{
     background-color: #4A148C;
@@ -115,26 +118,26 @@ color: #fff;
 border-radius: 1rem;
 }
 .main-article .main-title{
-    font-size: 2.4rem;
+    font-size: 3.4rem;
     text-align: center;
     ymargin-top: 1rem;
 }
 .main-article .user-date{
-					display: flex;
-					justify-content: center;
-					yalign-items: center;
-					font-size: 0.9rem;
-					margin: 1rem auto;
+    display: flex;
+    justify-content: center;
+    yalign-items: center;
+    font-size: 0.9rem;
+    margin: 1rem auto;
 }
 .main-article .user-date > *{
-					margin: 0 0.5rem;
+    margin: 0 0.5rem;
 }
 .main-article .user-date .author{
-					display: flex;
+    display: flex;
 }
 .main-article .user-date .author p a{
-					color: #4A148C;
-					font-weight: bold;
+    color: #4A148C;
+    font-weight: bold;
     text-decoration: none;
 }
 .main-article .main-title, .main-article > p{
@@ -208,7 +211,9 @@ display: flex;
 flex-direction: column;
 align-items: center;
 padding: 1rem;
-    margin-bottom: 1rem;
+margin: auto;
+margin-bottom: 1rem;
+width: var(--width);
 }
 .card .image{
 yborder: 1px solid blue;
@@ -235,4 +240,11 @@ footer{
     font-size: 1rem;
     padding: 0.8rem;
     text-align: center;
+}
+@media (min-width: 700px){
+    .main-article{
+        
+        margin: auto;
+        width: var(--width);
+    }
 }
