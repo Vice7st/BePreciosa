@@ -1,0 +1,238 @@
+@import url('https://fonts.googleapis.com/css2?family=Allura&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #f2f2f2;
+    font-family: sans-serif;
+    font-size: 1.1rem;
+}
+header{
+    background-color: #4A148C;
+    color: #f2f2f2;
+    display: grid;
+    grid-template-columns: 1fr auto;
+    box-shadow: 2px 2px 5px rgba(0,0,0,.2);
+}
+header .logotipo{
+    yborder: 1px solid orange;
+}
+header .logotipo p{
+    border-top: 5px solid transparent;
+    font-size: 2.5rem;
+    font-family: 'Allura', cursive;
+    yfont-weight: 400;
+    margin: auto auto auto 1rem;
+}
+.btn-menu{
+    background-color: inherit;
+    border: 0;
+    color: #f2f2f2;
+    font-size: 1.3rem;
+    padding: 1rem;
+}
+nav{
+    background-color: #f2f2f2;
+    color: #444;
+    position: absolute;
+    left: -100%;
+    transition: all 300ms ease;
+    -webkit-transition: all 300ms ease;
+    padding: 0.5rem;
+    box-shadow: 2px 2px 5px rgba(0,0,0,.2);
+    height: ;
+    width: 250px;
+}
+nav ul{
+    yborder: 1px solid;
+    list-style: none;
+}
+nav ul li{
+    yborder: 1px solid white;
+}
+nav ul li a{
+    yborder: 1px solid lime;
+    display: block;
+    padding: 1rem;
+    padding-left: 2.5rem;
+}
+nav ul li a:hover{
+    background-color: #4A148C;
+    color: white;
+    padding-left: 3.1rem;
+    transition: padding 400ms ease;
+}
+nav .redes-main-menu {
+    display: flex;
+    justify-content: space-around;
+    yborder: 1px solid lime;
+    padding: 1rem;
+}
+nav .redes-main-menu span {
+    font-size: 2rem;
+    margin: 0 0.2rem;
+}
+nav .redes-main-menu span.icon-facebook:hover {
+    color: #1877f2;
+}
+nav .redes-main-menu span.icon-twitter:hover {
+    color: #1da1f2;
+}
+nav .redes-main-menu span.icon-instagram:hover {
+    color: #e4405f;
+}
+nav .redes-main-menu span.icon-youtube:hover {
+    color: #f00;
+}
+nav .redes-main-menu > .icon:hover {
+    text-shadow: 0 2px 5px rgba(0,0,0,.2);
+    transition: all 150ms ease;
+}
+.menu-effect{
+    left: 0;
+}
+.tags{
+overflow-x: auto;
+padding: 5px;
+width: auto;
+white-space: nowrap;
+
+}
+.tags a{
+color: #4A148C;
+display: inline-block;
+padding: 0.5rem 0.7rem;
+font-size: 0.9rem;
+font-weight: bold;
+margin: 0 2px;
+text-decoration: none;
+}
+.tags a:hover{
+background-color: #4A148C;
+color: #fff;
+border-radius: 1rem;
+}
+.main-article .main-title{
+    font-size: 2.4rem;
+    text-align: center;
+    ymargin-top: 1rem;
+}
+.main-article .user-date{
+					display: flex;
+					justify-content: center;
+					yalign-items: center;
+					font-size: 0.9rem;
+					margin: 1rem auto;
+}
+.main-article .user-date > *{
+					margin: 0 0.5rem;
+}
+.main-article .user-date .author{
+					display: flex;
+}
+.main-article .user-date .author p a{
+					color: #4A148C;
+					font-weight: bold;
+    text-decoration: none;
+}
+.main-article .main-title, .main-article > p{
+    padding: 1rem;
+}
+.main-article figure{
+    background-color: #333;
+    padding-bottom: 3px;
+}
+.main-article figure figcaption{
+    color: #bbb;
+    font-size: 1rem;
+    text-align: center;
+}
+.main-article figure img{
+    width: 100%;
+}
+section.compartir{
+    yborder: 1px solid blue;
+    justify-content: space-around;
+    display: flex;
+    padding: 1rem 3rem 0 3rem;
+}
+.share-btn{
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5rem;
+    text-decoration: none;
+    transition: all 0.2s linear;
+    height: 50px;
+    width: 50px;
+}
+.share-btn:nth-child(1){
+    background-color: #1877f2;
+}
+.share-btn:nth-child(2){
+    background-color: #1da1f2;
+}
+.share-btn:nth-child(3){
+    background-color: #25d366;
+}
+.share-btn:hover{
+    background-color: #4A148C;
+    transform: rotate(360deg);
+}
+.share-btn:hover span{
+    text-shadow: 0 2px 5px rgba(0,0,0,.2);
+}
+a .icon-facebook{
+    ycolor: #1877f2;
+    color: white;
+}
+a .icon-twitter{
+    ycolor: #1da1f2;
+    color: white;
+}
+a .icon-whatsapp{
+    ycolor: #25d366;
+    color: white;
+}
+.main-article > p{
+    line-height: 1.7rem;
+}
+.card{
+background-color: white;
+yborder: 1px solid;
+border-radius: 45px 0 45px 0;
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 1rem;
+    margin-bottom: 1rem;
+}
+.card .image{
+yborder: 1px solid blue;
+padding: 0.5rem;
+}
+.card .image figure img{
+border: 3px solid #4A148C;
+border-radius: 50%;
+width: 90px;
+}
+.card .text{
+yborder: 1px solid red;
+line-height: 1.7rem;
+text-align: center;
+ypadding: 0 0 0.5rem 0;
+}
+.card .text h2{
+    color: #4A148C;
+padding-bottom: 0.5rem;
+}
+footer{
+    background-color: #333;
+    color: #bbb;
+    font-size: 1rem;
+    padding: 0.8rem;
+    text-align: center;
+}
