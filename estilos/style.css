@@ -33,6 +33,7 @@ header .logotipo p{
     background-color: inherit;
     border: 0;
     color: #f2f2f2;
+    cursor: pointer;
     font-size: 1.3rem;
     padding: 1rem;
 }
