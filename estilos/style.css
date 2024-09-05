@@ -64,6 +64,7 @@ nav ul li a{
 nav ul li a:hover{
     background-color: #4A148C;
     color: white;
+    cursor: pointer;
     padding-left: 3.1rem;
     transition: padding 400ms ease;
 }
@@ -76,6 +77,9 @@ nav .redes-main-menu {
 nav .redes-main-menu span {
     font-size: 2rem;
     margin: 0 0.2rem;
+}
+nav .redes-main-menu span:hover{
+    cursor: pointer;
 }
 nav .redes-main-menu span.icon-facebook:hover {
     color: #1877f2;
@@ -144,7 +148,7 @@ border-radius: 1rem;
     padding: 1rem;
 }
 .main-article figure{
-    background-color: #333;
+    background-color: #666666;
     padding-bottom: 3px;
 }
 .main-article figure figcaption{
@@ -243,8 +247,10 @@ footer{
 }
 @media (min-width: 700px){
     .main-article{
-        
         margin: auto;
         width: var(--width);
+    }
+    .main-article figure{
+        border-radius: 0 0 20px 20px;
     }
 }
